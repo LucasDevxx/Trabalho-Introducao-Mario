@@ -1,1 +1,4 @@
-print('Hello, World')
+G = []
+R = []
+
+print("Sistema de correção de provas iniciado")s
