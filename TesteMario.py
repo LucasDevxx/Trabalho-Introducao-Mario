@@ -15,3 +15,13 @@ while cont < 10:
     resposta = input(f'Questão {cont + 1}: ')
     R.append(resposta)
     cont = cont + 1
+acertos = 0
+erros = []
+
+cont = 0
+while cont < 10:
+    if R[cont] == G[cont]:
+        acertos = acertos + 1
+    else:
+        erros.append(cont + 1)
+    cont = cont + 1
