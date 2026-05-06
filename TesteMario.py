@@ -26,3 +26,7 @@ while cont < 10:
         erros.append(cont + 1)
     cont = cont + 1
 print(f'Questões que o aluno errou: {erros}')
+if acertos >= 6:
+    print(f'Aluno aprovado com {acertos} acertos.')
+else:
+    print(f'Aluno reprovado com {acertos} acertos.')
