@@ -30,3 +30,4 @@ if acertos >= 6:
     print(f'Aluno aprovado com {acertos} acertos.')
 else:
     print(f'Aluno reprovado com {acertos} acertos.')
+print('===ENCERRADO O PROGRAMA===')    
