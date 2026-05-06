@@ -25,3 +25,4 @@ while cont < 10:
     else:
         erros.append(cont + 1)
     cont = cont + 1
+print(f'Questões que o aluno errou: {erros}')
